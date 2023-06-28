@@ -29,7 +29,8 @@ description:           >
   with a focus on personal sites that are meant to impress.
 
 # A shorter description for the sidebar.
-tagline:              HKLeeeee's Study b_Log
+tagline:              HKLeeeee's Study b_Log    
+#  [![Hits](https://hits.sh/hkleeeee.github.io.svg)](https://hits.sh/hkleeeee.github.io/)
 
 # A list of keywords for your blog
 keywords:              [AI, Web, Cloud]
@@ -53,10 +54,12 @@ menu:
     url:               /about/
   - title:             Example
     url:               /example/
-  - title:             Computer 
-    url:               /cs/
-  - title:             AI 
-    url:               /AI/
+  - title:             Computer
+    url:               /computer/
+  - title:             AI
+    url:               /ai/
+  - title:             Test
+    url:               /test/
     
 
 
@@ -84,7 +87,7 @@ paginate_path:         /:num/
 # Theme
 # ---------------------------------------------------------------------------------------
 
-#theme: jekyll-theme-hydejack
+theme: jekyll-theme-hydejack
 remote_theme: hydecorp/hydejack@v9
 
 
