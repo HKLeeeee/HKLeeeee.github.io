@@ -3,20 +3,15 @@
 layout: list
 
 # The title of the tag's page.
-title: Computer
+title: Pytorch
 
 # The name of the tag, used in a post's front matter (e.g. tags: [<slug>]).
-slug: Computer
+slug: pytorch
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-  This is a featured category, which have their own page.
-  Check out `_featured_tags/cs.md` to learn how to create your own.
+  Pytorch
 
 # (Optional) You can disable grouping posts by date.
 # no_groups: true
-
-# Exclude this example category from the sitemap.
-# DON'T USE THIS SETTING IN YOUR CATEGORIES!
-sitemap: false
 ---
