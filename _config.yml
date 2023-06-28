@@ -56,7 +56,7 @@ menu:
   - title:             Computer 
     url:               /cs/
   - title:             AI 
-    url:               /AI/
+    url:               /ai/
     
 
 
@@ -84,7 +84,7 @@ paginate_path:         /:num/
 # Theme
 # ---------------------------------------------------------------------------------------
 
-#theme: jekyll-theme-hydejack
+theme: jekyll-theme-hydejack
 remote_theme: hydecorp/hydejack@v9
 
 
