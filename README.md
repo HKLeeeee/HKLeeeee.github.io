@@ -1,9 +1,10 @@
 # Hydejack 
 
 ## TODO
+- [ ] Jekyll Tutorial.....ㅠㅜ
 - [ ] Favicon
 - [x] Categories & Tag
-- [ ] SubCategories(https://hoisharka.github.io/jekyll/2017/12/03/jekyll-category-001/)
+- [ ] SubCategories (https://hoisharka.github.io/jekyll/2017/12/03/jekyll-category-001/)
 - [ ] Write Post
 - [ ] Change sidebar image
 - [ ] Comment function
