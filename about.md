@@ -7,6 +7,7 @@ hide_description: true
 ---
 
 # 개발자 이희경
+
 **Heekyoung Lee**
 {:.lead}
 
@@ -33,17 +34,22 @@ hide_description: true
 
 ## 💼 경력
 
-**Samsung Electronics** *(2024.10 ~)*  
-SW개발 / MES팀
+**Samsung Electronics** _(2024.10 ~)_
 
-**Ecube Labs** *(2024.04 ~ 2024.06)*  
-Full-stack Engineer / SW팀  
+- SW개발 / MES팀
+
+**Ecube Labs** _(2024.04 ~ 2024.06)_
+
+- Full-stack Engineer / SW팀
+
 - 솔루션 내 인공지능 적용 PoC
   - 쓰레기통 내부 특정 물품 판단 모델, RAG 활용 사내 챗봇
   - MLOps 도입 전략 조사 (Airflow, MLflow)
 
-**Human ICT 기술연구소** *(2022.11 ~ 2023.06)*  
-매니저 / AI모델연구개발팀  
+**Human ICT 기술연구소** _(2022.11 ~ 2023.06)_
+
+- 매니저 / AI모델연구개발팀
+
 - Vision AI 활용 솔루션 개발
 
 ---
@@ -58,31 +64,87 @@ Full-stack Engineer / SW팀
 
 ## ❓ 대외활동 및 교육
 
-| 기간 | 활동 |
-|---|---|
-| 2023.07 ~ 2023.12 | 네이버 부스트캠프 웹・모바일 8기 (JavaScript/TypeScript) |
+| 기간              | 활동                                                                                    |
+| ----------------- | --------------------------------------------------------------------------------------- |
+| 2023.07 ~ 2023.12 | 네이버 부스트캠프 웹・모바일 8기 (JavaScript/TypeScript)                                |
 | 2022.06 ~ 2022.08 | 데이터청년캠퍼스 — 데이터사이언스 기반 지능소프트웨어 과정, 한국데이터산업진흥원 (350h) |
-| 2022.01 ~ 2022.06 | K-digital Training AI 서비스 개발 — 멀티캠퍼스 (880h) |
-| 2021.05 ~ 2021.09 | 동국대학교 Farm — 소프트웨어융합 기술 동아리 |
-| 2020.01 ~ 2020.05 | 교환학생 — Brno University of Technology (체코), Faculty of IT |
+| 2022.01 ~ 2022.06 | K-digital Training AI 서비스 개발 — 멀티캠퍼스 (880h)                                   |
+| 2021.05 ~ 2021.09 | 동국대학교 Farm — 소프트웨어융합 기술 동아리                                            |
+| 2020.01 ~ 2020.05 | 교환학생 — Brno University of Technology (체코), Faculty of IT                          |
 
 ---
 
-## 📋 자격증
+## 👩‍💼 Projects
 
-- 정보처리기사
-- SQLD (SQL 개발자)
-- ADsP (데이터분석준전문가)
-- TOPCIT 693점 (4수준)
-- OPIc IH
+### 🚗 상습 침수지역 모니터링 및 위험 정보 제공 서비스
+**2022.09 ~ 2022.12** | AI · Team Project (AI 1, BE 2, FE 1)  
+`GitHub` : <!-- 링크 추가 -->
+
+공공 CCTV에 적용 가능한 딥러닝 기반 침수 탐지 모델을 개발하여 실시간 위험 정보를 제공하는 웹 서비스.
+
+`Python` `Flask` `PyTorch` `TensorFlow` `Celery` `Redis` `Docker` `AWS EC2/S3/RDS` `React` `MySQL`
+
+- 전이학습 + 가중치 튜닝으로 객체 탐지 모델 성능 50% 이상 개선
+- Celery + Redis 메시지 브로커 큐 활용 비동기 모델 API 구현
+- Wandb 도입으로 학습 과정 관리 및 시각화
+- **소프트웨어 등록 (C-2023-011779) · 특허 출원 (10-2023-0070846)**
 
 ---
 
-## 🏆 수상
+### 🐳 AlgoITNi — 협동 알고리즘 학습 플랫폼
+**2023.11 ~ 2023.12 (6주)** | Web · BE · Team Project (BE 2, FE 2)  
+`GitHub` : <!-- 링크 추가 -->
 
-- **[2023.02]** 우수 졸업상 — 동국대학교
-- **[2022.06]** 개인 우수상 — 멀티캠퍼스
-- **[2022.05]** 인공지능 활용 프로젝트 최우수상 — 멀티캠퍼스
+화상·음성·채팅으로 동료와 함께 알고리즘 문제를 풀 수 있는 플랫폼.
+
+`NestJS` `TypeScript` `Socket.IO` `MongoDB` `MySQL` `Redis` `Docker` `GitHub Actions` `Nginx`
+
+- Socket + Message Queue + Pub/Sub 도입으로 CPU 사용률 43%, Memory 21% 감소
+- Blue-Green 무중단 배포 구현
+- OAuth2.0 + JWT 쿠키 기반 인증/인가
+- 커스텀 데코레이터 + AsyncLocalStorage 트랜잭션 관심사 분리
+- **네이버클라우드 클로바 스튜디오 포럼 우수 사례 선정**
+
+---
+
+### 📱 Teengle — 10대 커뮤니티 앱
+**2024.01 ~ 2024.03** | Web · BE · Team Project (BE 2, FE 2, 디자인 1, 기획 1)  
+`GitHub` : <!-- 링크 추가 -->
+
+10대들이 자유롭게 소통할 수 있는 모바일 커뮤니티 앱.
+
+`Java` `Spring Boot` `QueryDSL` `JPA` `MongoDB` `MySQL` `Redis` `Docker` `AWS` `GitHub Actions` `React Native`
+
+- 해커스 뉴스 랭킹 알고리즘 기반 인기글 정렬
+- Cursor Based Pagination 도입으로 데이터 유실 감소
+- Bulk Update 적용으로 처리 속도 약 77% 감소
+- Logback 기반 서버 로그 모니터링
+
+---
+
+### 🪴 질병·생육단계 판단 스마트 화분
+**2022** | AI · Team Project  
+`GitHub` : <!-- 링크 추가 -->
+
+식물 기르기 자동화 시스템. 생육 단계 판단 및 질병 진단 정보 제공.
+
+`Python` `TensorFlow` `Scikit-learn` `OpenCV` `Wandb` `AWS EC2/Lambda/S3/RDS` `Arduino` `Raspberry Pi` `MQTT` `Android`
+
+- Multi-output Model 구현으로 질병 분류 + 생육단계 판단 동시 수행
+- Data Balancing (UnderSampling), Hyperparameter Tuning (Wandb Sweep)
+
+---
+
+### 🐿️ 생태통로 효율성 추정 및 주요 요인 분석
+**2022** | Data Analysis · Team Project (6인)  
+`GitHub` : <!-- 링크 추가 -->
+
+생태통로 효율성에 영향을 미치는 요인 데이터 수집 및 분석.
+
+`Python` `Selenium` `BeautifulSoup` `QGIS` `MySQL` `AWS RDS` `pycaret` `scikit-learn` `pandas`
+
+- 웹 크롤링 + GIS 데이터 전처리
+- pycaret 기반 머신러닝 분석 파이프라인 구현
 
 ---
 
