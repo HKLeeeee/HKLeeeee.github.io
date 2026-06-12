@@ -20,7 +20,7 @@ hide_description: true
 </div>
 <div markdown="1">
 
-<img src="https://avatars.githubusercontent.com/u/84272873?v=4">
+<img class="round-img" src="https://avatars.githubusercontent.com/u/84272873?v=4">
 
 </div>
 </div>
@@ -88,21 +88,18 @@ hide_description: true
 
 ### 🚌 버스어디 - 버스 도착 정보 앱
 
-[GitHub](https://github.com/Pepsi-Club/WhereMyBus-BE)
+[GitHub](https://github.com/Pepsi-Club/WhereMyBus-BE) [🍎 Store](https://apps.apple.com/us/app/%EC%A0%84%EA%B5%AD-%EC%8A%A4%EB%A7%88%ED%8A%B8-%EB%B2%84%EC%8A%A4-%EC%8B%A4%EC%8B%9C%EA%B0%84-%EB%8F%84%EC%B0%A9%EC%8B%9C%EA%B0%84-%EC%9C%84%EC%B9%98-%EC%A3%BC%EB%B3%80%EC%9E%A5%EC%86%8C/id884947832?l=ko)
 
 서울 안 어디서나,버스어디로 간편하게 ! 버스 즐겨찾기와 정기알람으로 버스 사용을 더 간편하게 ! 쉬운 사용성과 편리함을 갖춘 버스어디를 지금 만나보세요.
 
 `NestJS` `TypeScript` `MongoDB` `PM2` `FCM(Firebase Cloud Messaging)` `GitHub Actions` `Nginx`
 
-<div class="two-col" markdown="1">
+<div class="two-col-without-gap" markdown="1">
 <div markdown="1">
-<img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/19/bd/67/19bd6771-dbc3-7d68-2b50-817394e7ccde/6a1c816c-bab7-4f9b-929f-be5129a31cdb_appstore_screen.jpg/230x498bb.webp">
-
+<img class="round-img" src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/19/bd/67/19bd6771-dbc3-7d68-2b50-817394e7ccde/6a1c816c-bab7-4f9b-929f-be5129a31cdb_appstore_screen.jpg/230x498bb.webp">
 </div>
 <div markdown="1">
-
-<img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5b/76/97/5b769755-90f3-5ee9-6b21-3f8251a3dc33/fdc9ae75-214c-4be9-a1ec-a4da27b20a91_appstore_screen02.jpg/230x498bb.webp">
-
+<img class="round-img" src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5b/76/97/5b769755-90f3-5ee9-6b21-3f8251a3dc33/fdc9ae75-214c-4be9-a1ec-a4da27b20a91_appstore_screen02.jpg/230x498bb.webp">
 </div>
 </div>
 

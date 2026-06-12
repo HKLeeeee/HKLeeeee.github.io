@@ -58,9 +58,32 @@
   }
 }
 
-.two-col img {
+.two-col-without-gap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+  max-width: 50%;
+
+  @media (max-width: 640px) {
+    grid-template-columns: 1fr;
+    max-width: 100%;
+  }
+}
+
+.two-col-without-gap > div > p,
+.two-col-without-gap > div {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.two-col-without-gap img {
+  display: block;
+  margin: 0 !important;
+  width: 100%;
+}
+
+.round-img {
   border-radius: 22px;
-  overflow: hidden;
 }
 
 .dl-table {
