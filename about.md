@@ -94,7 +94,17 @@ hide_description: true
 
 `NestJS` `TypeScript` `MongoDB` `PM2` `FCM(Firebase Cloud Messaging)` `GitHub Actions` `Nginx`
 
-<img src="https://private-user-images.githubusercontent.com/65907001/327360215-a97bb417-52b2-454b-9f79-7fb715b4d96c.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3ODEyNTQwOTIsIm5iZiI6MTc4MTI1Mzc5MiwicGF0aCI6Ii82NTkwNzAwMS8zMjczNjAyMTUtYTk3YmI0MTctNTJiMi00NTRiLTlmNzktN2ZiNzE1YjRkOTZjLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjA2MTIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwNjEyVDA4NDMxMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTI2NzJhZTY4MTg1OTM0MmVlNzUyM2U2ODBkOGMxZDVjZTNiNjBkNjNhZjY1M2I3YzE3NTIxMDk1YzRjMTAwY2QmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRnBuZyJ9.PiY_m_3hmMO6AHMIAIvODiQuiYI3y1IVFCy9Vp4DJY4">
+<div class="two-col" markdown="1">
+<div markdown="1">
+<img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/19/bd/67/19bd6771-dbc3-7d68-2b50-817394e7ccde/6a1c816c-bab7-4f9b-929f-be5129a31cdb_appstore_screen.jpg/230x498bb.webp">
+
+</div>
+<div markdown="1">
+
+<img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5b/76/97/5b769755-90f3-5ee9-6b21-3f8251a3dc33/fdc9ae75-214c-4be9-a1ec-a4da27b20a91_appstore_screen02.jpg/230x498bb.webp">
+
+</div>
+</div>
 
 ---
 
