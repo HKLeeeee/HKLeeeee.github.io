@@ -82,7 +82,7 @@ hide_description: true
 - Blue-Green 무중단 배포 구현
 - OAuth2.0 + JWT 쿠키 기반 인증/인가
 - 커스텀 데코레이터 + AsyncLocalStorage 트랜잭션 관심사 분리
-- **네이버클라우드 클로바 스튜디오 포럼 우수 사례 선정**
+- [**네이버클라우드 클로바 스튜디오 포럼 우수 사례 선정**](https://www.ncloud-forums.com/topic/213/)
 
 ---
 
