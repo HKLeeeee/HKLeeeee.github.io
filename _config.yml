@@ -52,14 +52,16 @@ author:
 menu:
   - title:             AboutMe
     url:               /about/
-  - title:             Example
-    url:               /example/
-  - title:             Computer
-    url:               /computer/
   - title:             AI
     url:               /ai/
-  - title:             Test
-    url:               /test/
+  - title:             SW Engineering
+    url:               /sw-engineering/
+  - title:             Dev Trend
+    url:               /dev-trend/
+  - title:             Infra
+    url:               /infra/
+  - title:             Database
+    url:               /database/
     
 
 

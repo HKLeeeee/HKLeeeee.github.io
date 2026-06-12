@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Test Categories
+title: "친절한 SQL 튜닝 1장 - SQL 처리 과정과 I/O"
 description: >
-  "친절한 SQL 튜닝" book study
+  SQL 파싱, 최적화, 실행, SQL 공유 풀, 바인드 변수, I/O 효율화 원리
 sitemap: true
-categories: SQLTuning
-tags: SQLTuning
+categories: database
+tags: [sql, tuning, oracle]
 ---
 # 친절한 SQL 튜닝
 ## 1장 SQL 처리 과정과 I/O

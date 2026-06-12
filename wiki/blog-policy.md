@@ -2,11 +2,25 @@
 
 ## 카테고리 구조
 
-| 카테고리 | 디렉토리 | 내용 |
-|---|---|---|
-| SQLTuning | `_posts/친절한SQL튜닝/` | "친절한 SQL 튜닝" 책 스터디 |
-| Computer | `_posts/computer/` | 컴퓨터 일반 |
-| AI | `_posts/AI/` | AI 관련 |
+| 카테고리 | slug | 디렉토리 | 예정 내용 |
+|---|---|---|---|
+| AI | `ai` | `_posts/AI/` | AI 트렌드, 최신논문, Agentic Engineering, LLM, PyTorch, TensorRT |
+| SW Engineering | `sw-engineering` | `_posts/sw-engineering/` | 디자인 패턴, 애자일, 클린코드, 개발 철학 |
+| Dev Trend | `dev-trend` | `_posts/dev-trend/` | 매주 개발 트렌드 정리 (현재 빈 카테고리) |
+| Infra | `infra` | `_posts/infra/` | Docker, Kubernetes, CI/CD (현재 빈 카테고리) |
+| Database | `database` | `_posts/database/` | SQL 튜닝, Oracle, NoSQL, Graph DB |
+
+### 카테고리명 대안 제안 (SW Engineering)
+디자인 패턴·애자일·클린코드 성격에 맞는 후보:
+- **Craftsmanship** — 소프트웨어 장인정신, 가장 의미 정확
+- **Dev Practice** — 개발 실천법, 직관적
+- **Engineering** — 간결하지만 범위 너무 넓음
+- 현재 **SW Engineering** 유지 중 → 변경 원하면 `_featured_categories/sw-engineering.md` + `_config.yml` menu + 포스트 `categories` 3곳 수정
+
+### 삭제된 카테고리
+- `computer` — Docker(Infra), k8s(Infra), SOLID(SW Engineering)으로 분리됨
+- `example`, `test` — 테마 예시 파일 삭제
+- `SQLTuning` (친절한SQL튜닝) → `database`로 통합
 
 ## 포스트 작성 워크플로우
 
@@ -46,10 +60,18 @@ git push origin main
 | 미래 날짜 포스트 | 표시됨 | 표시 안 됨 |
 | 미커밋 파일 | 표시됨 | **표시 안 됨** |
 
+## About 페이지
+
+`about.md` — 포트폴리오 용도로 활용.  
+현재 기본 템플릿 작성 상태. 실제 경력/프로젝트 내용으로 채울 것.  
+참고: https://vigorous-pawpaw-311.notion.site/Portfolio-e26ad5cc58704ef499ce1d587c9387f7 (Notion 페이지 — 클라이언트 렌더링이라 자동 접근 불가, 수동 업데이트 필요)
+
 ## TODO
 
 - [x] GitHub Actions 빌드 전환 (`.github/workflows/jekyll.yml` 생성 완료)
 - [x] 사이드바 이미지 (`assets/img/sidebar.jpg` 커밋 완료)
+- [x] 카테고리 재편 (AI, SW Engineering, Dev Trend, Infra, Database)
+- [ ] About 페이지 포트폴리오 내용 채우기 (Notion 기반)
 - [ ] 댓글 기능 (utterances 또는 giscus 추천)
 - [ ] 파비콘 설정
 - [ ] Light/Dark 모드

@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Test Categories
+title: "친절한 SQL 튜닝 2장 - 인덱스 기본"
 description: >
-  "친절한 SQL 튜닝" book study
+  인덱스 구조, 범위 스캔, 랜덤 액세스, 인덱스 튜닝 핵심 원리
 sitemap: true
-categories: SQLTuning
-tags: SQLTuning
+categories: database
+tags: [sql, tuning, oracle, index]
 ---
 # 친절한 SQL 튜닝
 ## 2장 인덱스 기본

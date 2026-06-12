@@ -10,8 +10,7 @@ slug: ai
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-  This is a featured category, which have their own page.
-  Check out `_featured_tags/AI.md` to learn how to create your own.
+  AI 트렌드, 최신 논문, Agentic Engineering, LLM, PyTorch, TensorRT 등 인공지능 관련 모든 내용.
 
 # (Optional) You can disable grouping posts by date.
 # no_groups: true
