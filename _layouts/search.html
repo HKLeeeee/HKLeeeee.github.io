@@ -1,13 +1,31 @@
-<div class="common-header search">
-    <div class="search">
-      <i class="fas fa-search fa-fw"></i>
-      <input id="search-input" 
-        type="search" 
-        tabindex="1" 
-        spellcheck="false" 
-        placeholder="Search"
-      >
-    </div>
+---
+layout: page
+---
+
+{{ content }}
+
+<div class="search-wrap">
+  <input
+    id="search-input"
+    type="search"
+    tabindex="1"
+    spellcheck="false"
+    placeholder="검색어를 입력하세요..."
+    autocomplete="off"
+  >
 </div>
-  
+
 <ul id="results-container"></ul>
+
+<script src="{{ '/assets/js/simple-jekyll-search.min.js' | relative_url }}"></script>
+<script>
+SimpleJekyllSearch({
+  searchInput: document.getElementById('search-input'),
+  resultsContainer: document.getElementById('results-container'),
+  json: '{{ "/assets/json/search.json" | relative_url }}',
+  searchResultTemplate: '<li><a href="{url}">{title}</a><span class="search-result-meta">{date} &middot; {categories}</span></li>',
+  noResultsText: '<li class="no-results">검색 결과가 없습니다.</li>',
+  limit: 30,
+  fuzzy: false
+});
+</script>

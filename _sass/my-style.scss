@@ -1,3 +1,52 @@
+// Search page
+.search-wrap {
+  margin: 1.5rem 0;
+
+  input[type="search"] {
+    width: 100%;
+    padding: .6rem 1rem;
+    font-size: 1rem;
+    border: 1px solid var(--border-color, #ddd);
+    border-radius: 4px;
+    background: var(--body-bg, #fff);
+    color: var(--body-color, #333);
+    outline: none;
+
+    &:focus {
+      border-color: var(--accent-color, #4fb1ba);
+    }
+  }
+}
+
+#results-container {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  li {
+    padding: .75rem 0;
+    border-bottom: 1px solid var(--border-color, #eee);
+
+    a {
+      font-size: 1.05rem;
+      font-weight: 600;
+      display: block;
+    }
+
+    .search-result-meta {
+      font-size: .85rem;
+      color: var(--gray, #888);
+      margin-top: .2rem;
+      display: block;
+    }
+
+    &.no-results {
+      color: var(--gray, #888);
+      font-style: italic;
+    }
+  }
+}
+
 .two-col {
   display: grid;
   grid-template-columns: 1fr 1fr;

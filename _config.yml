@@ -62,7 +62,9 @@ menu:
     url:               /infra/
   - title:             Database
     url:               /database/
-    
+  - title:             Search
+    url:               /search/
+
 
 
 # Add links to the footer.
