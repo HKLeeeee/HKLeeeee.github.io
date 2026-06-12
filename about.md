@@ -94,13 +94,9 @@ hide_description: true
 
 `NestJS` `TypeScript` `MongoDB` `PM2` `FCM(Firebase Cloud Messaging)` `GitHub Actions` `Nginx`
 
-<div class="two-col-without-gap" markdown="1">
-<div markdown="1">
-<img class="round-img" src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/19/bd/67/19bd6771-dbc3-7d68-2b50-817394e7ccde/6a1c816c-bab7-4f9b-929f-be5129a31cdb_appstore_screen.jpg/230x498bb.webp">
-</div>
-<div markdown="1">
-<img class="round-img" src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5b/76/97/5b769755-90f3-5ee9-6b21-3f8251a3dc33/fdc9ae75-214c-4be9-a1ec-a4da27b20a91_appstore_screen02.jpg/230x498bb.webp">
-</div>
+<div class="two-col-without-gap">
+  <div><img class="round-img" src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/19/bd/67/19bd6771-dbc3-7d68-2b50-817394e7ccde/6a1c816c-bab7-4f9b-929f-be5129a31cdb_appstore_screen.jpg/230x498bb.webp"></div>
+  <div><img class="round-img" src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5b/76/97/5b769755-90f3-5ee9-6b21-3f8251a3dc33/fdc9ae75-214c-4be9-a1ec-a4da27b20a91_appstore_screen02.jpg/230x498bb.webp"></div>
 </div>
 
 ---
