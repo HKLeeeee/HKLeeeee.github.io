@@ -72,6 +72,7 @@ git push origin main
 - [x] 사이드바 이미지 (`assets/img/sidebar.jpg` 커밋 완료)
 - [x] 카테고리 재편 (AI, SW Engineering, Dev Trend, Infra, Database)
 - [ ] About 페이지 포트폴리오 내용 채우기 (Notion 기반)
+- [x] 검색 기능 (Simple Jekyll Search, `/search/` 페이지)
 - [ ] 댓글 기능 (utterances 또는 giscus 추천)
 - [ ] 파비콘 설정
 - [ ] Light/Dark 모드
