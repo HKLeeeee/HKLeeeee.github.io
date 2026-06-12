@@ -52,16 +52,18 @@ hide_description: true
 **Ecube Labs** _(2024.04 ~ 2024.06)_
 
 - Full-stack Engineer / SW팀
-
-- 솔루션 내 인공지능 적용 PoC
+  - 솔루션 내 인공지능 적용 PoC
   - 쓰레기통 내부 특정 물품 판단 모델, RAG 활용 사내 챗봇
   - MLOps 도입 전략 조사 (Airflow, MLflow)
 
 **Human ICT 기술연구소** _(2022.11 ~ 2023.06)_
 
 - 매니저 / AI모델연구개발팀
-
-- Vision AI 활용 솔루션 개발
+  - Vision AI 활용 솔루션 개발
+  - cctv 상 영상 내 높은 곳에서 낙하하는 사람과 정지하여 움직이지 않는 사람 감지
+    - yolov7(Object Detection), SORT(Multi-Object Tracking Algorithm), Lucas-Kanade(Optical Flow) 활용
+    - Python, Pytroch, Onnx, TensorRT
+  - SORT 알고리즘과 Optical FLow를 활용하여 감지된 사람 객체의 움직임을 파악하고 이벤트 발생
 
 ---
 
