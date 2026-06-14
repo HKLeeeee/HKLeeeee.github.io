@@ -324,6 +324,7 @@ exclude:
   - vendor
   - Gemfile
   - Gemfile.lock
+  - wiki
 include:
   - .well-known
   - LICENSE.md
