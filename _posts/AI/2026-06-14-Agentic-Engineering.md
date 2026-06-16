@@ -4,7 +4,7 @@ title: "Agentic Engineering"
 description: >
   AI Agent를 잘 쓰기 위한 도구 — 입력/출력 토큰 최적화부터 멀티 에이전트 프레임워크, Claude skill과 subagent 활용법까지
 sitemap: true
-categories: AI
+categories: ai
 tags: [claude, agent, agentic-engineering, llm, claude-code]
 ---
 
